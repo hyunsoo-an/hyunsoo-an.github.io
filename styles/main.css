@@ -1,1 +1,116 @@
+body {
+  background-color: #333;
+  color: white;
+}
 
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  height: 125px;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid #999;
+  background-color: white;
+}
+
+.header_logo h1 {
+  font: bold;
+  padding: 14px;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.header_logo p {
+  font: bold 12px 'arial';
+  letter-spacing: 2px;
+  margin-top: -15px;
+  color: black;
+}
+
+.header_opt ul {
+  margin-top: 25px;
+}
+
+.header_opt ul li {
+  display: inline-block;
+}
+
+.header_opt ul li a {
+  display: block;
+  font: bold 14px 'arial';
+  color: #999;
+  margin: 0px 16px;
+  letter-spacing: 1px;
+}
+
+.header_opt ul li a:hover {
+  border-bottom: 5px solid #999;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  padding: 0 1rem;
+  margin-top: 25%;
+  text-align: center;
+}
+
+section > p {
+  font-size: 20px;
+  font-weight: 450;
+  margin-bottom: 2rem;
+}
+
+section > p:first-child {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+section > a {
+  display: block;
+  border: 1px solid black;
+  width: 130px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+
+footer {
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+/* mobile phone*/
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* tablet*/
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+}

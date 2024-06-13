@@ -101,16 +101,26 @@ footer {
   font-size: 1.1rem;
 }
 
-/* mobile phone*/
+/* mobile phone */
 @media only screen and (max-width: 500px) {
   .container {
     width: 100%;
   }
 }
 
-/* tablet*/
+/* tablet */
 @media only screen and (max-width: 800px) {
   .container {
     width: 100%;
   }
+}
+
+/* Identity, Plan */
+.question {
+  font-size: 100;
+  background-color: blanchedalmond;
+}
+
+.question ol h2 li {
+  font-size: 100px;
 }

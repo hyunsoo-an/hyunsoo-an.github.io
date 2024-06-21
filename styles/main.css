@@ -73,7 +73,8 @@ section {
 section > p {
   font-size: 20px;
   font-weight: 450;
-  margin-bottom: 2rem;
+  margin-top: 10px;
+  margin-bottom: 7px;
 }
 
 section > p:first-child {
